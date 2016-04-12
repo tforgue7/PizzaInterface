@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD006CDB1CBD44E300B1F0F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD006CDA1CBD44E300B1F0F7 /* AppDelegate.swift */; };
+		FD006CDD1CBD44E300B1F0F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD006CDC1CBD44E300B1F0F7 /* ViewController.swift */; };
+		FD006CE01CBD44E300B1F0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD006CDE1CBD44E300B1F0F7 /* Main.storyboard */; };
+		FD006CE21CBD44E300B1F0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD006CE11CBD44E300B1F0F7 /* Assets.xcassets */; };
+		FD006CE51CBD44E300B1F0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD006CE31CBD44E300B1F0F7 /* LaunchScreen.storyboard */; };
+		FD006CF01CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD006CEF1CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests.swift */; };
+		FD006CFB1CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD006CFA1CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD006CEC1CBD44E300B1F0F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD006CCF1CBD44E300B1F0F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD006CD61CBD44E300B1F0F7;
+			remoteInfo = PizzaOrderingInterface;
+		};
+		FD006CF71CBD44E300B1F0F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD006CCF1CBD44E300B1F0F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD006CD61CBD44E300B1F0F7;
+			remoteInfo = PizzaOrderingInterface;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD006CD71CBD44E300B1F0F7 /* PizzaOrderingInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaOrderingInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD006CDA1CBD44E300B1F0F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD006CDC1CBD44E300B1F0F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD006CDF1CBD44E300B1F0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD006CE11CBD44E300B1F0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD006CE41CBD44E300B1F0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD006CE61CBD44E300B1F0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD006CEB1CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaOrderingInterfaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD006CEF1CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaOrderingInterfaceTests.swift; sourceTree = "<group>"; };
+		FD006CF11CBD44E300B1F0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD006CF61CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaOrderingInterfaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD006CFA1CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaOrderingInterfaceUITests.swift; sourceTree = "<group>"; };
+		FD006CFC1CBD44E300B1F0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD006CD41CBD44E300B1F0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD006CE81CBD44E300B1F0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD006CF31CBD44E300B1F0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD006CCE1CBD44E300B1F0F7 = {
+			isa = PBXGroup;
+			children = (
+				FD006CD91CBD44E300B1F0F7 /* PizzaOrderingInterface */,
+				FD006CEE1CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests */,
+				FD006CF91CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests */,
+				FD006CD81CBD44E300B1F0F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD006CD81CBD44E300B1F0F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD006CD71CBD44E300B1F0F7 /* PizzaOrderingInterface.app */,
+				FD006CEB1CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests.xctest */,
+				FD006CF61CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD006CD91CBD44E300B1F0F7 /* PizzaOrderingInterface */ = {
+			isa = PBXGroup;
+			children = (
+				FD006CDA1CBD44E300B1F0F7 /* AppDelegate.swift */,
+				FD006CDC1CBD44E300B1F0F7 /* ViewController.swift */,
+				FD006CDE1CBD44E300B1F0F7 /* Main.storyboard */,
+				FD006CE11CBD44E300B1F0F7 /* Assets.xcassets */,
+				FD006CE31CBD44E300B1F0F7 /* LaunchScreen.storyboard */,
+				FD006CE61CBD44E300B1F0F7 /* Info.plist */,
+			);
+			path = PizzaOrderingInterface;
+			sourceTree = "<group>";
+		};
+		FD006CEE1CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD006CEF1CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests.swift */,
+				FD006CF11CBD44E300B1F0F7 /* Info.plist */,
+			);
+			path = PizzaOrderingInterfaceTests;
+			sourceTree = "<group>";
+		};
+		FD006CF91CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD006CFA1CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests.swift */,
+				FD006CFC1CBD44E300B1F0F7 /* Info.plist */,
+			);
+			path = PizzaOrderingInterfaceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD006CD61CBD44E300B1F0F7 /* PizzaOrderingInterface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD006CFF1CBD44E300B1F0F7 /* Build configuration list for PBXNativeTarget "PizzaOrderingInterface" */;
+			buildPhases = (
+				FD006CD31CBD44E300B1F0F7 /* Sources */,
+				FD006CD41CBD44E300B1F0F7 /* Frameworks */,
+				FD006CD51CBD44E300B1F0F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzaOrderingInterface;
+			productName = PizzaOrderingInterface;
+			productReference = FD006CD71CBD44E300B1F0F7 /* PizzaOrderingInterface.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD006CEA1CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD006D021CBD44E300B1F0F7 /* Build configuration list for PBXNativeTarget "PizzaOrderingInterfaceTests" */;
+			buildPhases = (
+				FD006CE71CBD44E300B1F0F7 /* Sources */,
+				FD006CE81CBD44E300B1F0F7 /* Frameworks */,
+				FD006CE91CBD44E300B1F0F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD006CED1CBD44E300B1F0F7 /* PBXTargetDependency */,
+			);
+			name = PizzaOrderingInterfaceTests;
+			productName = PizzaOrderingInterfaceTests;
+			productReference = FD006CEB1CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD006CF51CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD006D051CBD44E300B1F0F7 /* Build configuration list for PBXNativeTarget "PizzaOrderingInterfaceUITests" */;
+			buildPhases = (
+				FD006CF21CBD44E300B1F0F7 /* Sources */,
+				FD006CF31CBD44E300B1F0F7 /* Frameworks */,
+				FD006CF41CBD44E300B1F0F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD006CF81CBD44E300B1F0F7 /* PBXTargetDependency */,
+			);
+			name = PizzaOrderingInterfaceUITests;
+			productName = PizzaOrderingInterfaceUITests;
+			productReference = FD006CF61CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD006CCF1CBD44E300B1F0F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tyler Forgue";
+				TargetAttributes = {
+					FD006CD61CBD44E300B1F0F7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FD006CEA1CBD44E300B1F0F7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FD006CD61CBD44E300B1F0F7;
+					};
+					FD006CF51CBD44E300B1F0F7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FD006CD61CBD44E300B1F0F7;
+					};
+				};
+			};
+			buildConfigurationList = FD006CD21CBD44E300B1F0F7 /* Build configuration list for PBXProject "PizzaOrderingInterface" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD006CCE1CBD44E300B1F0F7;
+			productRefGroup = FD006CD81CBD44E300B1F0F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD006CD61CBD44E300B1F0F7 /* PizzaOrderingInterface */,
+				FD006CEA1CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests */,
+				FD006CF51CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD006CD51CBD44E300B1F0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD006CE51CBD44E300B1F0F7 /* LaunchScreen.storyboard in Resources */,
+				FD006CE21CBD44E300B1F0F7 /* Assets.xcassets in Resources */,
+				FD006CE01CBD44E300B1F0F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD006CE91CBD44E300B1F0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD006CF41CBD44E300B1F0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD006CD31CBD44E300B1F0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD006CDD1CBD44E300B1F0F7 /* ViewController.swift in Sources */,
+				FD006CDB1CBD44E300B1F0F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD006CE71CBD44E300B1F0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD006CF01CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD006CF21CBD44E300B1F0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD006CFB1CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD006CED1CBD44E300B1F0F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD006CD61CBD44E300B1F0F7 /* PizzaOrderingInterface */;
+			targetProxy = FD006CEC1CBD44E300B1F0F7 /* PBXContainerItemProxy */;
+		};
+		FD006CF81CBD44E300B1F0F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD006CD61CBD44E300B1F0F7 /* PizzaOrderingInterface */;
+			targetProxy = FD006CF71CBD44E300B1F0F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD006CDE1CBD44E300B1F0F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD006CDF1CBD44E300B1F0F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD006CE31CBD44E300B1F0F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD006CE41CBD44E300B1F0F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD006CFD1CBD44E300B1F0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD006CFE1CBD44E300B1F0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD006D001CBD44E300B1F0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PizzaOrderingInterface/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TYLERJFORGUE.PizzaOrderingInterface;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD006D011CBD44E300B1F0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PizzaOrderingInterface/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TYLERJFORGUE.PizzaOrderingInterface;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD006D031CBD44E300B1F0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PizzaOrderingInterfaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TYLERJFORGUE.PizzaOrderingInterfaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaOrderingInterface.app/PizzaOrderingInterface";
+			};
+			name = Debug;
+		};
+		FD006D041CBD44E300B1F0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PizzaOrderingInterfaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TYLERJFORGUE.PizzaOrderingInterfaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaOrderingInterface.app/PizzaOrderingInterface";
+			};
+			name = Release;
+		};
+		FD006D061CBD44E300B1F0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PizzaOrderingInterfaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TYLERJFORGUE.PizzaOrderingInterfaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PizzaOrderingInterface;
+			};
+			name = Debug;
+		};
+		FD006D071CBD44E300B1F0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PizzaOrderingInterfaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TYLERJFORGUE.PizzaOrderingInterfaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PizzaOrderingInterface;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD006CD21CBD44E300B1F0F7 /* Build configuration list for PBXProject "PizzaOrderingInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD006CFD1CBD44E300B1F0F7 /* Debug */,
+				FD006CFE1CBD44E300B1F0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD006CFF1CBD44E300B1F0F7 /* Build configuration list for PBXNativeTarget "PizzaOrderingInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD006D001CBD44E300B1F0F7 /* Debug */,
+				FD006D011CBD44E300B1F0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD006D021CBD44E300B1F0F7 /* Build configuration list for PBXNativeTarget "PizzaOrderingInterfaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD006D031CBD44E300B1F0F7 /* Debug */,
+				FD006D041CBD44E300B1F0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD006D051CBD44E300B1F0F7 /* Build configuration list for PBXNativeTarget "PizzaOrderingInterfaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD006D061CBD44E300B1F0F7 /* Debug */,
+				FD006D071CBD44E300B1F0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD006CCF1CBD44E300B1F0F7 /* Project object */;
+}
