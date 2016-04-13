@@ -9,14 +9,12 @@
 import Foundation
 
 protocol PizzaInterface {
-    func pizzaMade()
-    
-    func addPizza()
-    
+    func pizzaMade() -> String
+    func addPizza() -> Int
     
 }
 
-class Pizza{
+class Pizza : PizzaInterface{
     //ingredients
  /* //how to make a dictionary!!!
     var aDictionary : Dictionary<String,Array<String>> = [
@@ -30,13 +28,28 @@ class Pizza{
     //shape
     var shape : Array<String>
     
+//[Brandon] i add time
+    var time : Int
+
     
-    init(toppings: Dictionary<String,Array<String>>, size: Array<String>, shape: Array<String>){
+    
+//[Brandon] i add time in the init and set it
+    init(toppings: Dictionary<String,Array<String>>, size: Array<String>, shape: Array<String>, time: Int){
         self.toppings = toppings
         self.size = size
         self.shape = shape
+        self.time = time
+        
     }
-    
+    func pizzaMade() -> String {
+        
+        
+        return "Topping \(toppings)\nSize \(size)\nShape \(shape)\nTime \(time)"
+    }
+    func addPizza() -> Int {
+        
+        return time
+    }
     
 }
 
