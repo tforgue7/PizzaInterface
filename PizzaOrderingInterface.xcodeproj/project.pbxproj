@@ -14,6 +14,7 @@
 		FD006CE51CBD44E300B1F0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD006CE31CBD44E300B1F0F7 /* LaunchScreen.storyboard */; };
 		FD006CF01CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD006CEF1CBD44E300B1F0F7 /* PizzaOrderingInterfaceTests.swift */; };
 		FD006CFB1CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD006CFA1CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests.swift */; };
+		FD006D091CBD450100B1F0F7 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD006D081CBD450100B1F0F7 /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FD006CF61CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaOrderingInterfaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD006CFA1CBD44E300B1F0F7 /* PizzaOrderingInterfaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaOrderingInterfaceUITests.swift; sourceTree = "<group>"; };
 		FD006CFC1CBD44E300B1F0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD006D081CBD450100B1F0F7 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FD006CDA1CBD44E300B1F0F7 /* AppDelegate.swift */,
 				FD006CDC1CBD44E300B1F0F7 /* ViewController.swift */,
+				FD006D081CBD450100B1F0F7 /* Pizza.swift */,
 				FD006CDE1CBD44E300B1F0F7 /* Main.storyboard */,
 				FD006CE11CBD44E300B1F0F7 /* Assets.xcassets */,
 				FD006CE31CBD44E300B1F0F7 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD006CDD1CBD44E300B1F0F7 /* ViewController.swift in Sources */,
+				FD006D091CBD450100B1F0F7 /* Pizza.swift in Sources */,
 				FD006CDB1CBD44E300B1F0F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
